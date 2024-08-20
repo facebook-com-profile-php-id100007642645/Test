@@ -1,0 +1,12 @@
+/* styles.css */
+.image-container {
+    width: 240px;
+    height: 240px;
+    overflow: hidden; /* Ensure image doesn't overflow the container */
+}
+
+.image-container img {
+    width: 100%; /* Adjusts to container size */
+    height: 100%; /* Adjusts to container size */
+    object-fit: cover; /* Ensures image covers the container without distortion */
+}
